@@ -19,4 +19,9 @@ public class Dog implements Pet {
     public String play() {
         return "Catching objects that you throw!";
     }
+
+    @Override
+    public void getUniqueAttribute(){
+        System.out.println("Breed: "+ getBreed());
+    }
 }

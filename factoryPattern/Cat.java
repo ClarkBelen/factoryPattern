@@ -20,4 +20,8 @@ public class Cat implements Pet {
     public String play() {
         return "Catching/pursuing moving objects!";
     }
+    @Override
+    public void getUniqueAttribute(){
+        System.out.println("No. of Lives: " + getNoOfLives());
+    }
 }
