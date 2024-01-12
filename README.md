@@ -1,4 +1,5 @@
-## Problem 
+## Pet Clinic Project
+**Problem:** 
 Implement factory design pattern using Pet as the factory interface.  The interface implements two methods: makeSound() and play().
 
 Dog and Cat are concrete objects that implements Pet interface.
